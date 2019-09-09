@@ -6,7 +6,7 @@
 
   function homeClick()
   {
-       let url = "home.html"
+       let url = "tabs/home.html"
 
        let homeBtn=document.getElementsByClassName("home");
       ajax_request(url);
@@ -14,24 +14,24 @@
 
   function webClick()
   {
-    let url = "web.html"
+    let url = "tabs/web.html"
    
     let webBtn=document.getElementsByClassName("article");
     ajax_request(url);
   }
   function gitClick()
   {
-    let url = "git.html"
+    let url = "tabs/git.html"
     ajax_request(url);
   }
   function tcpipClick()
   {
-    let url = "tcpip.html"
+    let url = "tabs/tcpip.html"
     ajax_request(url);
   }
   function socketProgramingClick()
   {
-    let url = "socket.html"
+    let url = "tabs/socket.html"
     ajax_request(url);
   }
 
